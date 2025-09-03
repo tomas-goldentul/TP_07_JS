@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicios</title>
 </head>
+
 <body>
-    <script src="./js/ejercicios.js"></script>
+
     <form id="edad">
-    <input type="text" placeholder="Ingresa tu edad">
-    <button type="submit">Enviar</button>
+        <input type="text" placeholder="Ingresa tu edad">
+        <button type="submit">Enviar</button>
     </form>
     <div id="resultado"></div>
+
+    <button type="submit" onclick="mostrarFrutas()">Mostrar Frutas</button>
+    <input id="frutaIngresada" type="text" placeholder="Ingresa una fruta">
+    <button type="submit" onclick="tirarFruta()">Enviar</button>
+    <div id="resultadoFrutal"></div>
+
+    <div id = "resultadoComparaciones"></div>
+    <button type="submit" onclick="comparaciones()">Enviar</button>
+
+    <script src="./js/ejercicios.js"></script>
+    <script src="./js/utils.js"></script>
 </body>
+
 </html>

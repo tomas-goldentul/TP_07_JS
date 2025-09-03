@@ -8,3 +8,7 @@ function obtenerFecha (){
 
     return diaHoy;
 }
+function vectorFrutas(){
+    const frutas = ["Manzana", "Banana", "Naranja", "Mandarina", "Tomate", "Limon", "Pera", "Kiwi", "Pomelo", "Uva"];
+return frutas;
+}
