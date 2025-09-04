@@ -42,3 +42,7 @@ function comparaciones(){
         resultadoComparaciones.innerHTML += `true == 1 false\n`
     }
 }
+
+function yoObjeto(){
+const ciudades = crearObjeto();
+}
