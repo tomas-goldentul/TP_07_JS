@@ -1,0 +1,15 @@
+#layout {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 7%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 40px;
+    padding: 20px;
+}
+
+.ejercicio {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

@@ -4,53 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Ejercicios</title>
 </head>
 
 <body>
+    <div id="layout">
+        <div class="ejercicio">
+            <input id="edad" type="date" placeholder="Ingresa tu edad">
+            <button type="submit" onclick="calcularEdad()">Enviar</button>
+            <div id="resultado"></div>
+        </div>
 
-    <form id="edad">
-        <input type="text" placeholder="Ingresa tu edad">
-        <button type="submit">Enviar</button>
-    </form>
-    <div id="resultado"></div>
+        <div class="ejercicio">
+            <button type="submit" onclick="mostrarFrutas()">Mostrar Frutas</button>
+            <input id="frutaIngresada" type="text" placeholder="Ingresa una fruta">
+            <button type="submit" onclick="tirarFruta()">Enviar</button>
+            <div id="resultadoFrutal"></div>
+        </div>
 
-    <button type="submit" onclick="mostrarFrutas()">Mostrar Frutas</button>
-    <input id="frutaIngresada" type="text" placeholder="Ingresa una fruta">
-    <button type="submit" onclick="tirarFruta()">Enviar</button>
-    <div id="resultadoFrutal"></div>
+        <div class="ejercicio">
+            <button type="submit" onclick="comparaciones()">Comparaciones</button>
+            <div id="resultadoComparaciones"></div>
+        </div>
 
-    <div id = "resultadoComparaciones"></div>
-    <button type="submit" onclick="comparaciones()">Comparaciones</button>
+        <div class="ejercicio">
+            <button type="submit" onclick="yoObjeto()">Ver ciudades</button>
+            <div id="resultadoCiudades"></div>
+        </div>
 
-    <div id = "resultadoCiudades"></div>
-    <button type="submit" onclick="yoObjeto()">Ver ciudades</button>
+        <div class="ejercicio">
+            <input id="arrayNumeros" type="text" placeholder="EJ: Ingresa 1, 2, 3">
+            <button type="submit" onclick="dobleDeElementos()">Enviar</button>
+            <div id="dobleElementos"></div>
+        </div>
 
-    <div id = "dobleElementos"></div>
-    <input id="arrayNumeros" type="text" placeholder="EJ: Ingresa 1, 2, 3">
-    <button type="submit" onclick="dobleDeElementos()">Enviar</button>
+        <div class="ejercicio">
+            <button type="submit" onclick="asteriscos1()">Ver asteriscos 1</button>
+            <div id="asteriscos1"></div>
+        </div>
 
-    <div id = "asteriscos1"></div>
-    <button type="submit" onclick="asteriscos1()">Ver asteriscos 1</button>
+        <div class="ejercicio">
+            <button type="submit" onclick="asteriscos2()">Ver asteriscos 2</button>
+            <div id="asteriscos2"></div>
+        </div>
 
-    <div id = "asteriscos2"></div>
-    <button type="submit" onclick="asteriscos2()">Ver asteriscos 2</button>
+        <div class="ejercicio">
+            <input id="arrayNombres" type="text" placeholder="EJ: Ingres nombre1, nombre2, nombre3">
+            <button type="submit" onclick="nombresConA()">Enviar</button>
+            <div id="nombresA"></div>
+        </div>
 
-    <div id = "nombresA"></div>
-    <input id="arrayNombres" type="text" placeholder="EJ: Ingres nombre1, nombre2, nombre3">
-    <button type="submit" onclick="nombresConA()">Enviar</button>
+        <div class="ejercicio">
+            <input id="cadena" type="text" placeholder="Ingresa una cadena de texto">
+            <input id="palabra" type="text" placeholder="Ingresa la palabra a remplazar">
+            <input id="palabraReemplazo" type="text" placeholder="Ingresa la palabra de remplazo">
+            <button type="submit" onclick="reemplazarPalabras()">Enviar todo</button>
+            <div id="remplazar"></div>
+        </div>
 
-    <div id = "remplazar"></div>
-    <input id="cadena" type="text" placeholder="Ingresa una cadena de texto">
-    <input id="palabra" type="text" placeholder="Ingresa la palabra a remplazar">
-    <input id="palabraReemplazo" type="text" placeholder="Ingresa la palabra de remplazo">
-    <button type="submit" onclick="reemplazarPalabras()">Enviar todo</button>
+        <div class="ejercicio">
+            <input id="cadenaCortar" type="text" placeholder="Ingresa una cadena de texto">
+            <input id="numero" type="number" placeholder="Ingresa un numero">
+            <button type="button" onclick="cortarTexto()">Enviar todo</button>
+            <div id="cortarTextoVer"></div>
+        </div>
 
-    <div id = "cortarTexto"></div>
-    <input id="cadena" type="text" placeholder="Ingresa una cadena de texto">
-    <input id="numero" type="number" placeholder="Ingresa un numero">
-    <button type="submit" onclick="cortarTexto()">Enviar todo</button>
+        <div class="ejercicio">
+            <input id="cadenaComas" type="text" placeholder="EJ: Ingrese elemento1,elemento2, elemento3">
+            <button type="submit" onclick="separadorTexto()">Enviar</button>
+            <div id="stringSeparados"></div>
+        </div>
 
+        <div class="ejercicio">
+            <input id="cadenaRecaudo" type="text" placeholder="EJ: Ingrese producto1:10,producto2:20, producto3:30">
+            <button type="button" onclick="recaudacion()">Enviar</button>
+            <div id="recaudacion"></div>
+        </div>
+    </div>
 
     <script src="./js/ejercicios.js"></script>
     <script src="./js/utils.js"></script>
