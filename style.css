@@ -4,9 +4,11 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
 }   
-body{
-    background-color: #f6f9fc;
+
+body {
+    background-color: #ffffff; 
 }
+
 #layout {
     width: 80%;
     margin-top: 5%;
@@ -19,16 +21,16 @@ body{
 
 .ejercicio {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc; 
     border-radius: 8px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .ejercicio:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
+
 .ejercicio input {
     display: block;
     margin-bottom: 10px;
@@ -38,24 +40,24 @@ body{
 }
 
 button[type="submit"] {
-    background-color: #3498db;
-    color: white;
+    background-color: #f7df1e;
+    color: black;
     border: none;
     padding: 2% 4%;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s ease;
     margin-left: 30%;
     width: 40%;
     margin-top: 4%;
 }
 
 button[type="submit"]:hover {
-    background-color: #2980b9;
+    background-color: #e6cd1a;
 }
+
 input {
     margin-top: 3%;
     border-radius: 8px;
-    border: 1px solid rgb(117, 115, 115);
+    border: 1px solid #757575; 
 }
